@@ -1,0 +1,67 @@
+.input {
+  width: 80%;
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.inputBottom {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+input {
+  color: #111;
+}
+textarea,
+input {
+  background: none;
+  flex: 1;
+  border: none;
+  outline: none;
+  margin-left: 10px;
+  color: #6a6a6a;
+  min-height: 40px;
+  font-size: 24px;
+  resize: none;
+  margin-right: 10px;
+}
+
+button {
+  margin-right: 10px;
+  background-color: rgba(214, 213, 213);
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 50px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
